@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/bt_back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:background="#3487ff"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/fudao" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="福道，即福州城市森林步道，采用全国首创钢架镂空设计，主轴线长6.3公里，环线总长约19公里，福道东北接左海公园，西南连闽江廊线，中间沿着金牛山山脊线，贯穿左海公园、梅峰山地公园、金牛山体育公园、国光公园、金牛山公园。" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/gushan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="鼓山位于福建省福州市晋安区东部、闽江北岸，距离市中心区约8公里，是福州最著名的风景区之一。
+鼓山是国家4A级旅游景区，也是国家级风景名胜区。2002年5月，福建省鼓山风景名胜区经国务院批准列入第四批国家级风景名胜区名单。
+鼓山景区以古刹涌泉寺为中心，东有回龙阁、灵源洞等20多景；西有洞壑数十景，其中以十八景尤著；南有罗汉台、香炉峰等50多景；北有大顶峰、白云洞等45景。这些景点主要由花岗岩经长期剥蚀、风化、崩塌、堆积而成，千姿百态，构成蟠桃林、刘海钓蟾、玉笋峰、八仙岩和喝水岩等自然景观。此外，还有历代摩崖石刻多处。" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/sanfangqixiang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三坊七巷是国家5A级旅游景区，是福州老城区经历了建国后的拆迁建设后仅存下来的一部分。是福州的历史之源、文化之根。
+三坊七巷自晋、唐形成起，便是贵族和士大夫的聚居地，清至民国走向辉煌。区域内现存古民居约有270座，有159处被列入保护建筑。以沈葆桢故居、林觉民故居、严复故居等9处典型建筑为代表的三坊七巷古建筑群，被国务院公布为全国重点文物保护单位。 [1]
+位于福州中心城区（老城区）的三坊七巷拥有38公顷的完整保护范围。三坊七巷为国内现存规模较大、保护较为完整的历史文化街区，是全国为数不多的古建筑遗存之一，有“中国城市里坊制度活化石”和“中国明清建筑博物馆”的美称。2009年6月10日，三坊七巷历史文化街区获得文化部、国家文物局批准的“中国十大历史文化名街”荣誉称号。" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/senlingongyuan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="福州国家森林公园（又名“福州植物园”）是福建省首家国家级森林公园，是全国十大森林公园之一，也是福州地区六个中国4A景区之一。福州国家森林公园原名福州树木园，创建于1960年2月、1988年经国家林业部批准建立福州森林公园。面积859.33公顷。分森林区、苗圃、温室、专类园、休息区等5个部分。
+" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/xihugongyuan"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="福州西湖公园位于福州市区中心区域，至今有1700多年的历史，是福州保留最完整的一座古典园林。有苏州园林的别样风格，兔耳岭怪石奇观，是福州市民休闲最佳去处。福州西湖为晋太康三年（公元282年）郡守严高所凿，在唐末就已经是游览胜地；五代时，福州西湖成为闽王王审知次子王延钧的御花园；到宋代更富盛景；清道光八年（公元1828年）林则徐为湖岸砌石，重新修建；1914年辟为西湖公园。"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/xiongmaoshijie"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="福州熊猫世界，又名海峡（福州）熊猫世界，由“大熊猫馆”、“小熊猫馆”、“熊类展区”、“熊猫博物馆”、“熊猫影剧院”、“熊猫艺术馆”、“梦山蝴蝶生态园”、“国宝卫士园”、“儿童小乐园”和距市区25公里、海拔高达1000米的鼓岭“熊猫山庄”等十个部门组成。熊猫世界以独特的科研驯化、大熊猫生殖生理研究、异种克隆大熊猫试验和配套的青少年科普教育设施而闻名中外。"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

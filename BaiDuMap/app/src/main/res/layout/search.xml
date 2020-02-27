@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@mipmap/background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="请输入要搜索的内容" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:background="#A6FF00"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/bt_scenic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@mipmap/scenic"
+            android:layout_marginLeft="20dp"
+            />
+
+        <Button
+            android:id="@+id/bt_hotel"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="50dp"
+            android:background="@mipmap/hotel"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/bt_food"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@mipmap/food"
+            android:layout_marginLeft="20dp"
+            />
+
+        <Button
+            android:id="@+id/bt_blog"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="50dp"
+            android:background="@mipmap/blogs"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        >
+
+        <Button
+            android:id="@+id/bt_location"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="当前定位"
+            android:background="#34FFF8"
+            />
+
+
+
+        <Button
+            android:id="@+id/bt_set"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:text="设置"
+            android:background="#FFCC34" />
+    </LinearLayout>
+
+</LinearLayout>

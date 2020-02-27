@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F54444"
+            android:text="取消"
+            />
+
+        <TextView
+            android:text="写博客"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            />
+
+        <Button
+            android:id="@+id/bt_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3487ff"
+            android:text="发表"
+            android:layout_marginLeft="70dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/et_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="分享新鲜事······"
+        />
+
+    <requestFocus/>
+
+</LinearLayout>

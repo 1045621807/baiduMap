@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/bt_back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:background="#3487ff"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/xierdun"
+                />
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="希尔顿酒店（福州三迪店）\n4.8/5分 | 豪华型\n福州市台江区振武路55号和57号\n¥756起\n\n预定电话：1238492342"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/xianggelila"
+                />
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="福州香格里拉大酒店\n4.7/5分 | 五星级\n福建省福州市鼓楼区新权南路9号\n¥700起\n\n预定电话：2132432414"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/fenghuangjiari"
+                />
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="凤凰假日酒店\n3.7/5分 | 舒适型\n福建省福州市鼓楼区杨桥中路289号\n¥268起\n\n预定电话：23294242342"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/shimaozhouji"
+            />
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="福州世茂洲际酒店\n4.7/5分 | 豪华型\n福州市台江区广达路108号\n¥707起\n\n预定电话：342345324"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/yuehua"
+                />
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="福州悦华酒店\n4.8/5分 | 豪华型\n福建省福州市鼓楼区华林路11号\n¥788起\n\n预定电话：23472384628"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/taihekaibinsiji"
+                />
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="福州泰禾凯宾斯基酒店\n4.8/5分 | 豪华型\n福建省福州市晋安区东二环泰禾广场横屿路1号\n¥799起\n\n预定电话：234324235"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
